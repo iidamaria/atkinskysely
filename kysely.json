@@ -1,0 +1,35 @@
+{
+  "id": 1,
+  "nimi": "Kevätkysely",
+  "kysymykset": [
+    {"id": 1,
+      "teksti": "Kerro itsestäsi!",
+      "otsikko": {"id": 1},
+      "tyyppi": "tekstikenttä",
+      "vaihtoehdot": [
+
+      ]
+    },
+    {"id": 2,
+      "teksti": "Mitä kuuluu?",
+      "otsikko": {"id": 1},
+      "tyyppi": {"id": "monivalinta"},
+      "vaihtoehdot": [
+        {"id": 1, "vaihtoehto": "Kuuluu erinomaista!"},
+        {"id": 2, "vaihtoehto": "Kuuluu keskinkertaista!"},
+        {"id": 3, "vaihtoehto": "Kuuluu huonoa!"}
+      ]
+    },
+    {"id": 3,
+      "teksti": "Mitä mieltä olet keväästä?",
+      "otsikko": {"id": 1},
+      "tyyppi": {"id": "monivalinta"},
+      "vaihtoehdot": [
+        {"id": 1, "vaihtoehto": "Ah, niin ihanaa!"},
+        {"id": 2, "vaihtoehto": "Siinäpä se menee!"},
+        {"id": 3, "vaihtoehto": "En tunne mitään."}
+      ]
+    }
+  ],
+  "luoja_id": ""
+}
